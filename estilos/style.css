@@ -76,8 +76,8 @@ main {
     background-color: white;
     margin: auto;
     margin-bottom: 30px;
-    min-height: 280px;
-    max-width: 800px;
+    min-height: 300px;
+    max-width: 1000px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.123);
     border-bottom-left-radius: 10px;
@@ -120,10 +120,6 @@ main a:hover {
     text-decoration: underline;
 }
 
-main .pequena {
-    display: block;
-    margin: auto;
-}
 
 main h1 {
     font-family: var(--fonte-android);
@@ -131,8 +127,15 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-android);
+
 }
-picture {
+
+main img {
+    width: 100%;
+}
+
+main .pequena {
+    max-width: 350px;
     display: block;
     margin: auto;
 }
